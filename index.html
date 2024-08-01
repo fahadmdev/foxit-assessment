@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foxit</title>
+
+    <!-- stylesheets starts here -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <!-- stylesheets ends here -->
+</head>
+<body>
+    
+    <!-- header starts here -->
+    <header id="site__header">
+        <div class="container-fluid">
+            <div class="inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo-default.svg" alt="Site logo image">
+                    </a>
+                </div>
+                <div class="navbar-wrap" id="headerNav">
+                    <!-- <div class="menu-btn">
+                        <div class="icon-left"></div>
+                        <div class="icon-right"></div>
+                    </div> -->
+                    <ul class="menu">
+                        <li class="sub-menu-item">
+                            <a class="nav-link" href="#">Products</a>
+                            <div class="sub-menu">
+                                <a href="#" class="nav-link">Products Overview</a>
+                                <a href="#" class="nav-link">Product 1</a>
+                                <a href="#" class="nav-link">Product 2</a>
+                                <a href="#" class="nav-link">Product 3</a>
+                            </div>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a class="nav-link" href="#">Features</a>
+                            <div class="sub-menu">
+                                <a href="#" class="nav-link">Features Overview</a>
+                                <a href="#" class="nav-link">Feature 1</a>
+                                <a href="#" class="nav-link">Feature 2</a>
+                                <a href="#" class="nav-link">Feature 3</a>
+                            </div>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a class="nav-link" href="#">Resources</a>
+                            <div class="sub-menu">
+                                <a href="#" class="nav-link">Resources Overview</a>
+                                <a href="#" class="nav-link">Resource 1</a>
+                                <a href="#" class="nav-link">Resource 2</a>
+                                <a href="#" class="nav-link">Resource 3</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Compare Plans</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn cart-btn">Buy Now</a>
+                    <a href="#" class="login-btn">
+                        <span class="profile-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.87148 7.16667C7.71243 7.16667 9.20481 5.67428 9.20481 3.83333C9.20481 1.99238 7.71243 0.5 5.87148 0.5C4.03053 0.5 2.53815 1.99238 2.53815 3.83333C2.53815 5.67428 4.03053 7.16667 5.87148 7.16667ZM5.87148 15.5C9.09314 15.5 11.7048 14.0076 11.7048 12.1667C11.7048 10.3257 9.09314 8.83333 5.87148 8.83333C2.64982 8.83333 0.038147 10.3257 0.038147 12.1667C0.038147 14.0076 2.64982 15.5 5.87148 15.5Z" fill="#28303F"/>
+                            </svg>
+                        </span>
+                        <span class="status-text">log In</span>
+                    </a>
+                </div>
+
+                <div class="mobile-cta-btns">
+                    <a href="#" class="cta-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <g clip-path="url(#clip0_1_61686)">
+                              <path d="M5.00033 3.33317H15.0003C16.8413 3.33317 18.3337 4.82555 18.3337 6.6665V10.8332C18.3337 12.6741 16.8413 14.1665 15.0003 14.1665H8.33366C6.49271 14.1665 5.00033 12.6741 5.00033 10.8332V3.33317ZM5.00033 3.33317C5.00033 2.4127 4.25413 1.6665 3.33366 1.6665H1.66699" stroke="#28303F" stroke-width="1.36364" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M9.16699 17.0835C9.16699 17.7739 8.60735 18.3335 7.91699 18.3335C7.22664 18.3335 6.66699 17.7739 6.66699 17.0835C6.66699 16.3931 7.22664 15.8335 7.91699 15.8335C8.60735 15.8335 9.16699 16.3931 9.16699 17.0835Z" stroke="#28303F" stroke-width="1.36364"/>
+                              <path d="M16.667 17.0835C16.667 17.7739 16.1073 18.3335 15.417 18.3335C14.7266 18.3335 14.167 17.7739 14.167 17.0835C14.167 16.3931 14.7266 15.8335 15.417 15.8335C16.1073 15.8335 16.667 16.3931 16.667 17.0835Z" stroke="#28303F" stroke-width="1.36364"/>
+                              <path d="M9.16699 7.0835H14.167" stroke="#28303F" stroke-width="1.36364" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M9.16699 10.4165H14.167" stroke="#28303F" stroke-width="1.36364" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_1_61686">
+                                <rect width="20" height="20" fill="white"/>
+                              </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="#" class="cta-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.87148 7.16667C7.71243 7.16667 9.20481 5.67428 9.20481 3.83333C9.20481 1.99238 7.71243 0.5 5.87148 0.5C4.03053 0.5 2.53815 1.99238 2.53815 3.83333C2.53815 5.67428 4.03053 7.16667 5.87148 7.16667ZM5.87148 15.5C9.09314 15.5 11.7048 14.0076 11.7048 12.1667C11.7048 10.3257 9.09314 8.83333 5.87148 8.83333C2.64982 8.83333 0.038147 10.3257 0.038147 12.1667C0.038147 14.0076 2.64982 15.5 5.87148 15.5Z" fill="#28303F"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="cta-btn">
+                        <div class="menu-btn" id="navToggler">
+                            <div class="icon-left"></div>
+                            <div class="icon-right"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <a href="#" class="cloud-app-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3333 0.333252C9.41287 0.333252 8.66668 1.07944 8.66668 1.99992V3.66659C8.66668 4.58706 9.41287 5.33325 10.3333 5.33325H12C12.9205 5.33325 13.6667 4.58706 13.6667 3.66659V1.99992C13.6667 1.07944 12.9205 0.333252 12 0.333252H10.3333ZM2.00001 8.66659C1.07954 8.66659 0.333344 9.41278 0.333344 10.3333V11.9999C0.333344 12.9204 1.07954 13.6666 2.00001 13.6666H3.66668C4.58715 13.6666 5.33334 12.9204 5.33334 11.9999V10.3333C5.33334 9.41278 4.58715 8.66659 3.66668 8.66659H2.00001ZM0.333344 1.99992C0.333344 1.07944 1.07954 0.333252 2.00001 0.333252H3.66668C4.58715 0.333252 5.33334 1.07944 5.33334 1.99992V3.66659C5.33334 4.58706 4.58715 5.33325 3.66668 5.33325H2.00001C1.07954 5.33325 0.333344 4.58706 0.333344 3.66659V1.99992ZM10.3333 8.66659C9.41287 8.66659 8.66668 9.41278 8.66668 10.3333V11.9999C8.66668 12.9204 9.41287 13.6666 10.3333 13.6666H12C12.9205 13.6666 13.6667 12.9204 13.6667 11.9999V10.3333C13.6667 9.41278 12.9205 8.66659 12 8.66659H10.3333Z" fill="#757575"/>
+                    </svg>
+                    Clound Applications
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="header-padding"></div>
+    <!-- header ends here -->
+
+    <!-- hero starts here -->
+    <section class="hero">
+        <div class="inner">
+            <div class="col">
+                <div class="hero-text">
+                    <h1 class="h1">Built for business. <span class="text-primary">Optimized with AI.</span></h1>
+                    <p>Let Foxit’s powerful AI Assistant do the heavy lifting. Summarize complex content, rewrite documents, and use AI chat to enhance PDFs.</p>
+                    <a href="#" class="btn">Start Free Trial</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="hero-image">
+                    <img src="assets/images/hero-img.png" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero ends here -->
+    
+    <!-- cta-banner starts here -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="inner">
+                <div class="banner-text">
+                    <div class="banner-text-icon">
+                        <svg width="40" height="36" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33.435 11.0004L33.396 11.1307L33.3794 11.2657C33.2684 12.1673 33.2737 12.873 33.4403 13.5154C33.5662 14.0005 33.8029 14.4433 33.9304 14.6816C33.9559 14.7294 33.977 14.7689 33.992 14.799C34.1895 15.1948 34.5674 16.014 34.5752 19.0187C33.566 27.2851 26.6572 33.6162 18.3876 33.6162H17.2091C8.85365 33.6162 1.95837 26.3911 1.95837 17.9053V17.8545C1.95837 9.44388 8.78006 2.60384 17.2091 2.60384H34.6155C35.3146 2.60384 35.5746 2.86415 35.6794 3.04168C35.8103 3.26356 35.9214 3.74538 35.6276 4.49109C35.0049 6.07151 34.279 8.18246 33.435 11.0004Z" fill="white" stroke="url(#paint0_linear_48_399)" stroke-width="3.22143"/>
+                            <path d="M22.1458 14.6838V17.7584V14.6838Z" fill="url(#paint1_linear_48_399)"/>
+                            <path d="M22.1458 14.6838V17.7584" stroke="url(#paint2_linear_48_399)" stroke-width="4.02679" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M12.4816 14.6838V17.7584V14.6838Z" fill="url(#paint3_linear_48_399)"/>
+                            <path d="M12.4816 14.6838V17.7584" stroke="url(#paint4_linear_48_399)" stroke-width="4.02679" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_48_399" x1="29.4504" y1="35.2269" x2="32.0037" y2="1.45466" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#E267E4"/>
+                            <stop offset="0.505208" stop-color="#AD4DF8"/>
+                            <stop offset="1" stop-color="#4198FF"/>
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_48_399" x1="22.8802" y1="17.7584" x2="23.6406" y2="14.9225" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#E267E4"/>
+                            <stop offset="0.505208" stop-color="#AD4DF8"/>
+                            <stop offset="1" stop-color="#4198FF"/>
+                            </linearGradient>
+                            <linearGradient id="paint2_linear_48_399" x1="23.0793" y1="21.5294" x2="24.4566" y2="12.7175" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#E267E4"/>
+                            <stop offset="0.505208" stop-color="#AD4DF8"/>
+                            <stop offset="1" stop-color="#8EC2FF"/>
+                            </linearGradient>
+                            <linearGradient id="paint3_linear_48_399" x1="13.216" y1="17.7584" x2="13.9764" y2="14.9225" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#E267E4"/>
+                            <stop offset="0.505208" stop-color="#AD4DF8"/>
+                            <stop offset="1" stop-color="#4198FF"/>
+                            </linearGradient>
+                            <linearGradient id="paint4_linear_48_399" x1="13.4152" y1="21.5294" x2="14.7924" y2="12.7175" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#E267E4"/>
+                            <stop offset="0.505208" stop-color="#AD4DF8"/>
+                            <stop offset="1" stop-color="#8EC2FF"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>                                
+                    </div>
+                    <div class="banner-description">
+                        <strong>How smart are your PDFs?</strong>
+                        <p>Interact with PDFs like never before with Foxit AI</p>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-sm">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- cta-banner ends here -->
+
+    <!-- features starts here -->
+    <section class="features">
+        <div class="container">
+            <div class="inner">
+                <div class="block">
+                    <div class="col">
+                        <div class="feature-image">
+                            <img src="assets/images/Summarize.png" alt="Summarize Image">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="feature-text">
+                            <h2 class="h2">Summarize in <span class="text-primary">seconds</span></h2>
+                            <p>Boost productivity by effortlessly condensing information to focus on key points. Foxit’s AI assistant extracts important document details and creates concise summaries, allowing you to quickly grasp relevant concepts and identify important takeaways.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="col">
+                        <div class="feature-image">
+                            <img src="assets/images/rewrites.png" alt="Rewrites Image">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="feature-text">
+                            <h2 class="h2">One-click <span class="text-primary">rewrites</span></h2>
+                            <p>Cut down on manual work and quickly rewrite documents with increased precision. Foxit’s AI Assistant delivers one-click definitions, explanations, and rewording suggestions to make documents more engaging while retaining the original meaning.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="col">
+                        <div class="feature-image">
+                            <img src="assets/images/insight.png" alt="insight Image">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="feature-text">
+                            <h2 class="h2">Chat naturally, <span class="text-primary">gain insight</span></h2>
+                            <p>Ask questions and get quick, in-depth answers, empowering you to make more informed decisions about your documents. Use Foxit's conversational AI Assistant to extract data and transform your PDF information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- features ends here -->
+
+    <!-- cta-banner-v1 starts here -->
+    <section class="cta-banner-v1 discover-banner">
+        <div class="container">
+            <div class="inner">
+                <h2 class="h2">Discover everything <span class="text-primary">Foxit AI</span> can do</h2>
+                <div class="description">
+                    <p>Experience intuitive AI integration that increases productivity and document quality. See how the future of PDFs is more than smart; it’s Foxit.</p>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- cta-banner-v1 ends here -->
+
+    <!-- user starts here -->
+    <section class="user">
+        <div class="container">
+            <div class="inner">
+                <h2 class="h2">See how people use Foxit</h2>
+                <div class="user-tabs">
+                    <div class="tab-btns">
+                        <button class="tab-btn active" data-tab="it_admin_tab">IT administrators</button>
+                        <button class="tab-btn" data-tab="operations_tab">Operations</button>
+                        <button class="tab-btn" data-tab="businesses_tab">Businesses</button>
+                        <button class="tab-btn" data-tab="power_users_tabs">Power users</button>
+                    </div>
+                
+                    <div class="tab-content-outer">
+                        <div id="it_admin_tab" class="tab-content active">
+                            <div class="block">
+                                <div class="col">
+                                    <div class="block-image">
+                                        <img src="assets/images/it-administrators.png" alt="IT Administrators Image">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="block-text">
+                                        <h3 class="h3">Streamline IT processes</h3>
+                                        <ul>
+                                            <li>Automate repeat manual tasks.</li>
+                                            <li>Spotlight document issues (with AI chat).</li>
+                                            <li>Simplify complex documents.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="operations_tab" class="tab-content">
+                            <div class="block">
+                                <div class="col">
+                                    <div class="block-image">
+                                        <img src="assets/images/operations.png" alt="Operations Image">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="block-text">
+                                        <h3 class="h3">Maximize departmental efficiency</h3>
+                                        <ul>
+                                            <li>Extract important document details fast.</li>
+                                            <li>Create AI-powered content summaries.</li>
+                                            <li>Fine-tune PDFs with precision.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="businesses_tab" class="tab-content">
+                            <div class="block">
+                                <div class="col">
+                                    <div class="block-image">
+                                        <img src="assets/images/businesses.png" alt="Businesses Image">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="block-text">
+                                        <h3 class="h3">Achieve content goals faster</h3>
+                                        <ul>
+                                            <li>Automatically translate into more than 30 languages.</li>
+                                            <li>Generate more content variety with instant rewrites.</li>
+                                            <li>Ensure consistent messaging using interactive AI.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        <div id="power_users_tabs" class="tab-content">
+                            <div class="block">
+                                <div class="col">
+                                    <div class="block-image">
+                                        <img src="assets/images/power-users.png" alt="Power Users Image">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="block-text">
+                                        <h3 class="h3">Make the most of your PDFs</h3>
+                                        <ul>
+                                            <li>Create better documents with intuitive editing and content suggestions.</li>
+                                            <li>AI-driven revisions ensure quality and consistency.</li>
+                                            <li>Use automation to unlock new workflows.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- user ends here -->
+
+    <!-- featured-posts starts here -->
+    <section class="featured-posts">
+        <div class="container">
+            <div class="inner">
+                <h2 class="h2">New and trending from Foxit</h2>
+                <div class="posts-block">
+                    <div class="col">
+                        <div class="post-card video-post">
+                            <div class="post-thumbnail">
+                                <img src="assets/images/video-post.png" alt="Video Post Thumbnail">
+                            </div>
+                            <div class="card-body">
+                                <div class="post-type-badge">
+                                    <span>video</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                                        <path d="M9.69678 2.99877C10.4344 1.44483 12.5657 1.44482 13.3033 2.99877L14.5781 5.68439C14.871 6.30147 15.4372 6.72917 16.0922 6.82812L18.9428 7.25878C20.5922 7.50797 21.2507 9.61539 20.0572 10.825L17.9945 12.9154C17.5206 13.3958 17.3043 14.0878 17.4162 14.766L17.9032 17.7178C18.1849 19.4258 16.4607 20.7282 14.9854 19.9218L12.4358 18.5282C11.85 18.208 11.1501 18.208 10.5643 18.5282L8.01466 19.9218C6.5394 20.7282 4.81518 19.4258 5.09693 17.7178L5.58386 14.766C5.69575 14.0878 5.47948 13.3958 5.00553 12.9154L2.94284 10.825C1.74933 9.6154 2.40792 7.50797 4.05731 7.25878L6.90788 6.82812C7.56286 6.72917 8.12906 6.30147 8.42197 5.68439L9.69678 2.99877Z" stroke="#FF5F00" stroke-width="1.5" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h3 class="h3">Discover the future of PDFs</h3>
+                                <div class="description">
+                                    <p>The AI revolution is here and it's rapidly changing how we interact with and create digital documents. Check out what's hot and what's coming.</p>
+                                </div>
+                                <a href="#" class="cta-link">
+                                    Watch Video
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4861 4.51384C12.7546 4.78233 12.7546 5.21763 12.4861 5.48612L8.81947 9.15278C8.55098 9.42127 8.11568 9.42127 7.8472 9.15278C7.57871 8.8843 7.57871 8.44899 7.8472 8.18051L10.3402 5.68748L1 5.68748C0.620306 5.68748 0.312501 5.37967 0.312501 4.99998C0.312501 4.62028 0.620306 4.31248 1 4.31248L10.3402 4.31248L7.8472 1.81945C7.57871 1.55096 7.57871 1.11566 7.8472 0.847177C8.11568 0.578691 8.55098 0.578691 8.81947 0.847177L12.4861 4.51384Z" fill="#FF5F00"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="post-card">
+                            <div class="post-thumbnail">
+                                <img src="assets/images/report-post.png" alt="Report Post Thumbnail">
+                            </div>
+                            <div class="card-body">
+                                <div class="post-type-badge">
+                                    <span>report</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                                        <path d="M9.69678 2.99877C10.4344 1.44483 12.5657 1.44482 13.3033 2.99877L14.5781 5.68439C14.871 6.30147 15.4372 6.72917 16.0922 6.82812L18.9428 7.25878C20.5922 7.50797 21.2507 9.61539 20.0572 10.825L17.9945 12.9154C17.5206 13.3958 17.3043 14.0878 17.4162 14.766L17.9032 17.7178C18.1849 19.4258 16.4607 20.7282 14.9854 19.9218L12.4358 18.5282C11.85 18.208 11.1501 18.208 10.5643 18.5282L8.01466 19.9218C6.5394 20.7282 4.81518 19.4258 5.09693 17.7178L5.58386 14.766C5.69575 14.0878 5.47948 13.3958 5.00553 12.9154L2.94284 10.825C1.74933 9.6154 2.40792 7.50797 4.05731 7.25878L6.90788 6.82812C7.56286 6.72917 8.12906 6.30147 8.42197 5.68439L9.69678 2.99877Z" stroke="#FF5F00" stroke-width="1.5" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h3 class="h3">See how AI is integrating with document technology</h3>
+                                <div class="description">
+                                    <p>Read how CIOs are deploying AI across their teams to increase productivity and employee satisfaction.</p>
+                                </div>
+                                <a href="#" class="cta-link">
+                                    Download Report
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4861 4.51384C12.7546 4.78233 12.7546 5.21763 12.4861 5.48612L8.81947 9.15278C8.55098 9.42127 8.11568 9.42127 7.8472 9.15278C7.57871 8.8843 7.57871 8.44899 7.8472 8.18051L10.3402 5.68748L1 5.68748C0.620306 5.68748 0.312501 5.37967 0.312501 4.99998C0.312501 4.62028 0.620306 4.31248 1 4.31248L10.3402 4.31248L7.8472 1.81945C7.57871 1.55096 7.57871 1.11566 7.8472 0.847177C8.11568 0.578691 8.55098 0.578691 8.81947 0.847177L12.4861 4.51384Z" fill="#FF5F00"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="post-card">
+                            <div class="post-thumbnail">
+                                <img src="assets/images/blog-post.png" alt="Blog Post Thumbnail">
+                            </div>
+                            <div class="card-body">
+                                <div class="post-type-badge">
+                                    <span>blog post</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                                        <path d="M9.69678 2.99877C10.4344 1.44483 12.5657 1.44482 13.3033 2.99877L14.5781 5.68439C14.871 6.30147 15.4372 6.72917 16.0922 6.82812L18.9428 7.25878C20.5922 7.50797 21.2507 9.61539 20.0572 10.825L17.9945 12.9154C17.5206 13.3958 17.3043 14.0878 17.4162 14.766L17.9032 17.7178C18.1849 19.4258 16.4607 20.7282 14.9854 19.9218L12.4358 18.5282C11.85 18.208 11.1501 18.208 10.5643 18.5282L8.01466 19.9218C6.5394 20.7282 4.81518 19.4258 5.09693 17.7178L5.58386 14.766C5.69575 14.0878 5.47948 13.3958 5.00553 12.9154L2.94284 10.825C1.74933 9.6154 2.40792 7.50797 4.05731 7.25878L6.90788 6.82812C7.56286 6.72917 8.12906 6.30147 8.42197 5.68439L9.69678 2.99877Z" stroke="#FF5F00" stroke-width="1.5" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h3 class="h3">AI built for all day use</h3>
+                                <div class="description">
+                                    <p>Foxit AI is powered by ChatGPT, and designed to boost productivity and efficiency  across digital document work flows. See what features you'll use all day.</p>
+                                </div>
+                                <a href="#" class="cta-link">
+                                    Watch Video
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4861 4.51384C12.7546 4.78233 12.7546 5.21763 12.4861 5.48612L8.81947 9.15278C8.55098 9.42127 8.11568 9.42127 7.8472 9.15278C7.57871 8.8843 7.57871 8.44899 7.8472 8.18051L10.3402 5.68748L1 5.68748C0.620306 5.68748 0.312501 5.37967 0.312501 4.99998C0.312501 4.62028 0.620306 4.31248 1 4.31248L10.3402 4.31248L7.8472 1.81945C7.57871 1.55096 7.57871 1.11566 7.8472 0.847177C8.11568 0.578691 8.55098 0.578691 8.81947 0.847177L12.4861 4.51384Z" fill="#FF5F00"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- featured-posts starts here -->
+
+    <!-- training-banner starts here -->
+    <section class="training-banner">
+        <div class="container">
+            <div class="inner">
+                <div class="col">
+                    <div class="banner-text">
+                        <h2 class="h2">Learn how AI can boost productivity <span class="text-primary">by 61%</span></h2>
+                        <div class="description">
+                            <p>Forrester details the impact of AI on document solutions.</p>
+                        </div>
+                        <a href="#" class="btn">Download the report</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="banner-image">
+                        <img src="assets/images/training-banner.png" alt="Training Banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- training-banner ends here -->
+
+    <!-- stats starts here -->
+    <section class="stats">
+        <div class="container">
+            <div class="inner">
+                <h2 class="h2">See how Foxit stacks up</h2>
+                <h5 class="h5">Redefining your PDF experience with speed and innovation.</h5>
+                <div class="stats-cards-wrapper">
+                    <img class="cat-image" src="assets/images/cat.png" alt="Cat Image">
+                    <div class="stats-cards">
+                        <img src="assets/images/stat-1.png" alt="Momentum Leader Winter 2024">
+                        <img src="assets/images/stat-2.png" alt="High Performer Europe Winter 2024">
+                        <img src="assets/images/stat-3.png" alt="Leader Mid Market Winter 2024">
+                        <img src="assets/images/stat-4.png" alt="Leader Americas Winter 2024">
+                        <img src="assets/images/stat-5.png" alt="Leader Mid Market Winter 2024">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- stats ends here -->
+
+    <!-- cta-banner-v1 starts here -->
+    <section class="cta-banner-v1">
+        <div class="container">
+            <div class="inner">
+                <h2 class="h2">Faster, Smarter, Better PDFs</h2>
+                <div class="description">
+                    <h5 class="h5">The #1 Acrobat alternative PDF editor as rated by G2 Crowd. </h5>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- cta-banner-v1 ends here -->
+
+    <!-- footer starts here -->
+    <footer>
+        <div class="container">
+            <div class="inner">
+                <div class="footer-top">
+                    <a href="#" class="logo">
+                        <img src="assets/images/logo-white.svg" alt="Site Logo Image white">
+                    </a>
+                    <div class="ft-content">
+                        <ul class="social-links">
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/youtube.png" alt="youtube icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/linkedln.png" alt="linkedin icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/facebook.png" alt="facebook icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/twitter.png" alt="twitter icon">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="select-language">
+                            <img class="globe-icon" src="assets/images/globe.png" alt="globe icon">
+                            <select>
+                                <option value="">
+                                    eng
+                                </option>
+                            </select>
+                        </div>
+                        <div class="copyright-text">
+                            <p>2024 © Foxit Software Incorporated. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <div class="description">
+                        <p>Subscribe to our newsletter for pro tips and exciting tech & trend news, or to our  update bulletins for new release announcements, security & service updates, and status changes.</p>
+                    </div>
+                    <div class="newsletter-content">
+                        <form action="">
+                            <div class="form-group input-submit-group">
+                                <input class="form-control" type="email" placeholder="youremail@gmail.com" required>
+                                <button type="submit" class="btn">Subscribe</button>
+                            </div>
+                            <div class="radio-buttons-group">
+                                <div class="form-group">
+                                    <input type="radio" name="footer-newsletter" id="newsletter_field">
+                                    <label for="newsletter_field">Newsletter</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="radio" name="footer-newsletter" id="security_service_updates">
+                                    <label for="security_service_updates">Security Bulletins and Service Updates</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="radio" name="footer-newsletter" id="both">
+                                    <label for="both">Both</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-bottom other-links">
+                    <div class="col">
+                        <ul>
+                            <li><strong>Popular Features</strong></li>
+                            <li><a href="#">AI Assistant</a></li>
+                            <li><a href="#">PDF Creator</a></li>
+                            <li><a href="#">PDF Software</a></li>
+                            <li><a href="#">Edit PDF</a></li>
+                            <li><a href="#">Split PDF</a></li>
+                            <li><a href="#">Annotate PDF</a></li>
+                            <li><a href="#">Scan to PDF</a></li>
+                            <li><a href="#">Sign PDF</a></li>
+                            <li><a href="#">Protect PDF</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li><strong>Key Products</strong></li>
+                            <li><a href="#">PDF Editor</a></li>
+                            <li><a href="#">Foxit eSign</a></li>
+                            <li><a href="#">PDF Reader</a></li>
+                            <li><a href="#">Admin Console</a></li>
+                            <li><a href="#">Document Transformation</a></li>
+                            <li><a href="#">PDF Compressor</a></li>
+                            <li><a href="#">Developer Portal (SDK)</a></li>
+                            <li><a href="#">PDF Filter</a></li>
+                            <li><a href="#">Ultraforms</a></li>
+                            <li><a href="#">PDS</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li><strong>Online PDF Tools</strong></li>
+                            <li><a href="#">PDF to Word</a></li>
+                            <li><a href="#">Word to PDF</a></li>
+                            <li><a href="#">Compress PDF</a></li>
+                            <li><a href="#">Merge PDF</a></li>
+                            <li><a href="#">PDF TO JPG</a></li>
+                            <li><a href="#">JPG to PDF</a></li>
+                            <li><a href="#">PPT to PDF</a></li>
+                            <li><a href="#">PDF to PPT</a></li>
+                            <li><a href="#">PDF to Excel</a></li>
+                            <li><a href="#">Excel to PDF</a></li>
+                            <li><a href="#">PDF  Converter</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li><strong>Company Resources</strong></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Multi-language Translation System</a></li>
+                            <li><a href="#">Export Information</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">Responsible Disclosure Policy</a></li>
+                            <li><a href="#">Imprint</a></li>
+                            <li><a href="#">Acquisitions</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li><strong>Contact Sales</strong></li>
+                            <li><a href="tel:1-866-680-3668">1-866-680-3668</a></li>
+                            <li><a href="mailto:sales@foxitsoftware.com">sales@foxitsoftware.com</a></li>
+                        </ul>
+                        <ul>
+                            <li><strong>Contact Support</strong></li>
+                            <li><a href="tel:1-866-680-3668">1-866-680-3668</a></li>
+                            <li><a href="mailto:support@foxitsoftware.com">support@foxitsoftware.com</a></li>
+                            <li><a href="#">Foxit Support Center</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <!-- starts here -->
+    <!-- ends here -->
+    
+    <!-- scripts starts here -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main-min.js"></script>
+    <!-- scripts ends here -->
+
+</body>
+</html>
